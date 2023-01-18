@@ -11,12 +11,6 @@ body {
     flex-direction: row;
 }
 
-/* .nodetree{
-    display: flex;
-    margin: 10px;
-    flex-direction: column;
-    padding: 10px;
-} */
 .nodetree {
     margin-top: 0;
     left: 0;
@@ -26,6 +20,19 @@ body {
     overflow-y: hidden;
 }
 
+
+.li{
+    list-style: "~";
+    margin-left: 10px;
+}
+
+.indentedlist{
+    margin-left: 15px;
+    color: #f4cea7;
+    list-style: "↳";
+}
+
+
 .nodetree-text {
     margin-bottom: 20px;
 }
@@ -33,7 +40,7 @@ body {
 .navbar-content {
     display: flex;
     flex-direction: column;
-    color: #759575;
+    color: #afaf00;
 }
 
 .navbar-content span {
@@ -46,15 +53,5 @@ body {
 .nodetree {
     padding: 6px 6px 6px 6px;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 17px;
 }
-
-/* .line {
-    border-left: 1px solid grey;
-    border-right: 1px solid grey;
-    width: 1px;
-    background-color: grey;
-    height: 100vh;
-    position: relative;
-
-} */
