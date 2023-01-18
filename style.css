@@ -1,0 +1,10 @@
+content{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+.leftcontent{
+    border-right:3px solid grey;
+    min-width: 60%;
+    height: 100vh;
+}
