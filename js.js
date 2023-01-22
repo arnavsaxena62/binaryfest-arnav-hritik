@@ -1376,5 +1376,3 @@ var output = ["CPU0 microcode updated early to revision 0x1b, date = 2014-05-29"
     "virbr0: port 1(virbr0-nic) entered listening state",
     "virbr0: port 1(virbr0-nic) entered disabled state",
     "Initialising...", ""];
-
-var code = ""
