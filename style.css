@@ -2,9 +2,10 @@
     margin: 0;
     padding: 0;
 }
+
 html {
     scroll-behavior: smooth;
-  }  
+}
 
 body {
     background-color: #141417;
@@ -12,19 +13,19 @@ body {
     font-family: monospace;
     overflow: visible;
     list-style: none;
-    }
+}
 
-pre{
+pre {
     margin: 0;
     padding: 0;
-    
+
 }
 
 .leftcontent {
     border-right: 3px solid grey;
     height: 99vh;
     flex-grow: 1;
-    /* overflow: scroll; */
+
     overflow-x: scroll;
 }
 
@@ -59,7 +60,7 @@ pre {
     padding: 0;
     margin: 0;
     font-size: 15px;
-    font-family:'lucida console', monospace;
+    font-family: 'lucida console', monospace;
 }
 
 .load {
@@ -91,126 +92,131 @@ pre {
 
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-.grid-2{
+.grid-2 {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
 }
 
-h2,.white{
+h2,
+.white {
     color: #fff;
 }
 
-a{
+a {
     text-decoration: none;
 }
-.projectcontent{
+
+.projectcontent {
     color: #7A7C80;
     list-style: "";
 }
-/* section 1 */
-.section-1{
+
+
+.section-1 {
     padding-top: 12vh;
     text-align: center;
 }
 
-.section-1 p{
+.section-1 p {
     font-size: 1.1rem;
     padding-bottom: 10px;
-    margin:0;
+    margin: 0;
 }
 
-.section-1 h2{
+.section-1 h2 {
     font-size: 1.7rem;
     margin-bottom: 10px;
 }
 
-.section-1 a{
+.section-1 a {
     font-size: 1.5rem;
     padding: 10px;
 }
-/* section 2 */
-.section-2{
+
+.section-2 {
     padding-top: 10vh;
     width: 70%;
 }
 
-.section-2 h2{
+.section-2 h2 {
     font-size: 1.7rem;
     margin-bottom: 10px;
 }
 
-.section-2 p{
+.section-2 p {
     font-size: 1.1rem;
     padding-bottom: 10px;
-    margin:0;
+    margin: 0;
 }
 
-.section-2 a{
+.section-2 a {
     display: block;
     padding: 5px;
     font-size: 1.2rem;
     padding-left: 0;
     width: 100px;
 }
-/* animations / utilities */
-.section-2 a:hover{
+
+.section-2 a:hover {
     font-size: 1.3rem;
     color: #fff;
     cursor: pointer;
     transition: 0.2s;
 }
 
-.section-1 a:hover{
+.section-1 a:hover {
     color: #fff;
     cursor: pointer;
     transition: 0.3s;
 }
 
-.white:hover{
+.white:hover {
     position: relative;
     padding-left: 10px;
 }
 
-/* media queres */
-@media(max-width:780px){
-    .grid-2{
+
+@media(max-width:780px) {
+    .grid-2 {
         grid-template-columns: 1fr;
     }
-    .section-1{
-        padding:0;
+
+    .section-1 {
+        padding: 0;
         padding-top: 5rem;
     }
-    .section-2{
+
+    .section-2 {
         padding: 0;
         padding-left: 1.5rem;
         padding-top: 2rem;
     }
 }
-input[type=text], select, textarea {
-    width: 50%; 
-    padding: 12px; 
-    border: 1px solid #ccc; 
-    border-radius: 4px; 
-    box-sizing: border-box; 
-    margin-top: 6px; 
-    margin-bottom: 16px; 
+
+input[type=text],
+select,
+textarea {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
     resize: vertical;
-  }
-  
-  /* Style the submit button with a specific background color etc */
-  input[type=submit] {
+}
+
+
+input[type=submit] {
     background-color: #04AA6D;
     color: white;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-  }
-  
-  /* When moving the mouse over the submit button, add a darker green color */
-  input[type=submit]:hover {
-    background-color: #45a049;
-  }
-  
+}
 
-  
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
