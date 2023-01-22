@@ -11,70 +11,193 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="monokaisublime.css"">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
 </head>
 
 <body>
-    
+
     <div class="mainbody">
-        <div class="nodetree">
+        <div class="nodetree">  
             <p class="nodetree-text">" Press ? for help</p>
             <p style="color: gray;">.. (up a dir)</p>
-            <p style="color: #9a9a05;">/coding/portfolio/</p>
+            <p style="color: #dfdb7b;">/coding/portfolio/</p>
             <div class="navbar-content">
 
                 <ul>
                     <li class="li">
-                        <span>home/</span>
+                        <span><a>home/</a></span>
                     </li>
-                    <li class="li"><span>about me/</span>
+                    <li class="li"><span><a>about me/</a></span>
                     </li>
                     <li class="li"><span>certifications/</span>
                         <ul class="indentedlist">
                             <li><span>college</span></li>
-                            <li><span>companies</span></li>
-                            <li><span>marks</span></li>
-                            <li><span>languages learnt</span></li>
-                            <li><span>hritik add more</span></li>
+                            <li><span><a>companies</a></span></li>
+                            <li><span><a>programming</a></span></li>
+                            <!-- <li><span>languages learnt</span></li>
+                            <li><span>hritik add more</span></li> -->
                         </ul>
                     </li>
                     <li class="li"><span>projects/</span>
                         <ul class="indentedlist">
-                            <li><span>blender</span></li>
-                            <li><span>python</span></li>
-                            <li><span>commisions</span></li>
+                            <li><span><a>spotify-tracker</a></span></li>
+                            <li><span><a>sentiment-analysis</a></span></li>
+                            <li><span><a>face-detection</a></span></li>
                         </ul>
                     </li>
-                    <li class="li"><span>pricing/</span>
+                    <li class="li"><span href=".leftcontent">Services</span>
                         <ul class="indentedlist">
-                            <li><span>3d art</span></li>
-                            <li><span>ui ux design</span></li>
-                            <li><span>backend support</span></li>
-                            <li><span>data management</span></li>
-                            <li><span>digital art</span></li>
+                            <li><span><a>3d-modelling</a></span></li>
+                            <li><span><a>webdev</a></span></li>
+                            <li><span><a>digital-marketing</a></span></li>
+                            <li><span><a>data-handling</a></span></li>
+                            <li><span><a>digital-art</a></span></li>
                         </ul>
                     </li>
                 </ul>
             </div>
         </div>
-
         <div class="leftcontent">
-
+<pre ><code>&lt;html lang=&quot;en&quot;&gt;
+    &lt;head&gt;
+        &lt;meta charset=&quot;UTF-8&quot;&gt;
+        &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+        &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;ie=edge&quot;&gt;
+        &lt;link rel=&quot;stylesheet&quot; href=&quot;https://use.fontawesome.com/releases/v5.4.1/css/all.css&quot;
+            integrity=&quot;sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz&quot; crossorigin=&quot;anonymous&quot;&gt;
+        &lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot;&gt;
+        &lt;script src=&quot;type.js&quot;&gt;&lt;/script&gt;
+        &lt;title&gt;Gus&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;div class=&quot;grid-2&quot;&gt;
+            &lt;div class=&quot;section-1&quot;&gt;
+                &lt;i class=&quot;fas fa-code fa-5x white&quot;&gt;&lt;/i&gt;
+                &lt;h2 id=&quot;type&quot;&gt;Gustavo &quot;Gus&quot; Fring&lt;/h2&gt;
+                &lt;p&gt;Albuquerque, New Mexico&lt;/p&gt;
+                &lt;h2&gt;Contact&lt;/h2&gt;
+                &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fab fa-twitter&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+                &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fab fa-linkedin&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+                &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+                &lt;p&gt;lospolloshermanos@gmail.com&lt;/p&gt;
+                &lt;div class=&quot;container&quot;&gt;
+                    &lt;form action=&quot;action_page.php&quot;&gt;
+                        &lt;input type=&quot;text&quot; id=&quot;fname&quot; name=&quot;firstname&quot; placeholder=&quot;First Name&quot;&gt;
+                        &lt;br&gt;
+    
+                        &lt;input type=&quot;text&quot; id=&quot;lname&quot; name=&quot;lastname&quot; placeholder=&quot;Last Name&quot;&gt;
+                        &lt;br&gt;
+                        &lt;input type=&quot;text&quot; id=&quot;email&quot; name=&quot;mail&quot; placeholder=&quot;youremail@gmail.com&quot;&gt;
+                        &lt;br&gt;
+                        &lt;button type=&quot;button&quot; &quot;&gt;Submit!&lt;/button&gt;  
+                    &lt;/form&gt;
+                    &lt;/div&gt;
+                &lt;img src=&quot; https://i.postimg.cc/FHKfdyN1/Screenshot-2023-01-21-200831-removebg-preview.png&quot; width=&quot;300&quot;
+                            height=&quot;300&quot;&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;section-2&quot;&gt;
+                    &lt;h2&gt;About&lt;/h2&gt;
+                    &lt;p&gt; Hi! My name is Gustavo, but you can call me Gus. I&#39;m a web developer who works part time at Google,
+                        and
+                        loves coding.&lt;/p&gt;
+                    &lt;h1 class=&quot;about&quot;&gt;&lt;/h1&gt;
+                    &lt;div class=&quot;certifaction&quot;&gt;
+                        &lt;h2&gt;Certifications&lt;/h2&gt;
+                        &lt;ul&gt;
+                            &lt;li&gt;
+                                &lt;p&gt;College&lt;/p&gt;
+                            &lt;/li&gt;
+                            &lt;p&gt; Yaba College Of Technology &lt;br&gt;
+                                Developer for YCT Marketing Organization (3 Months)&lt;br&gt;
+                                Member and Contributor for The Octane Mathematics Group&lt;br&gt;
+                                Member of the DSC Society&lt;/p&gt;
+                            &lt;li&gt;
+                                &lt;p&gt;Companies&lt;/p&gt;
+                            &lt;/li&gt;
+                            &lt;p&gt; I&#39;m currently interning with Google, although I have worked with companies like Amazon,
+                                Microsoft, and DJI in the past. I hope to one day start up my own tech related firm that
+                                offers
+                                premium software design services. &lt;/p&gt;
+                            &lt;li&gt;
+                                &lt;p&gt;Programming&lt;/p&gt;
+                            &lt;/li&gt;
+                            &lt;p&gt; I enjoy developing apps, games, and websites in a variety of languages. A few languages i&#39;m
+                                comfortable with using currently include Python, JavaScript, HTML, SASS, React, and Go. &lt;/p&gt;
+                        &lt;/ul&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;Projects&quot;&gt;
+                        &lt;h2&gt;Projects&lt;/h2&gt;
+                        &lt;ul&gt;
+                            &lt;li&gt;
+                                &lt;p&gt;Spotify-Tracker&lt;/p&gt;
+                                &lt;p&gt; &lt;a href=&quot;https://github.com/Yooooomi/your_spotify&quot;&gt; This &lt;/a&gt;is a self hosted TypeScript
+                                    app I made, which tracks what you listen and offers you a dashboard to explore
+                                    statistics about it!&lt;/p&gt;
+                            &lt;/li&gt;
+                            &lt;li&gt;
+                                &lt;p&gt;Sentiment Analysis&lt;/p&gt;
+                                &lt;p&gt; &lt;a href=&quot;https://github.com/thisandagain/sentiment&quot;&gt; Sentiment&lt;/a&gt; is a Node.js module
+                                    that uses the AFINN-165 wordlist and Emoji Sentiment Ranking to perform sentiment
+                                    analysis on arbitrary blocks of input text&lt;/p&gt;
+                            &lt;/li&gt;
+                            &lt;li&gt;
+                                &lt;p&gt;Face Detection&lt;/p&gt;
+                                &lt;p&gt; &lt;a href=&quot;https://github.com/ShiqiYu/libfacedetection&quot;&gt; Libfacedetection&lt;/a&gt; is an open
+                                    source library for CNN-based face detection in images. &lt;/p&gt;
+                            &lt;/li&gt;
+                        &lt;/ul&gt;
+                    &lt;/div&gt;
+                    &lt;div id=&quot;pricing&quot;&gt;
+                        &lt;h2&gt;Services&lt;/h2&gt;
+                        &lt;ul&gt;
+                            &lt;li&gt;
+                                &lt;p&gt;3d Modelling&lt;/p&gt;
+                                &lt;p&gt;I can model any 3d object to your specifications, and even make animations using python
+                                    scripts in Blender&lt;/p&gt;
+                            &lt;/li&gt;
+                            &lt;li&gt;
+                                &lt;p&gt;Website Development&lt;/p&gt;
+                                &lt;p&gt;Familiarity in ReactJS, NextJS, NodeJS and many other FrameWorks will enable me to make
+                                    visually stunning static and dynamic web pages for you&lt;/p&gt;
+                            &lt;/li&gt;
+                            &lt;li&gt;
+                                &lt;p&gt;Digital Marketing&lt;/p&gt;
+                                &lt;p&gt;Having multiple years of experience working for large tech firms has made me great with
+                                    digital marketing&lt;/p&gt;
+                            &lt;/li&gt;
+                            &lt;li&gt;
+                                &lt;p&gt;Data Handling&lt;/p&gt;
+                                &lt;p&gt;I enjoy using python and Node.js to create visually stunning yet accurate graphs for
+                                    companies to manage and observe margins&lt;/p&gt;
+                            &lt;/li&gt;
+                            &lt;li&gt;
+                                &lt;p&gt;Digital Art&lt;/p&gt;
+                                &lt;p&gt;An artist since childhood, I find great joy in drawing animations, caricatures, and
+                                    anything else that lets my ideas flow&lt;/p&gt;
+                            &lt;/li&gt;
+                        &lt;/ul&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+    &lt;/body&gt;
+    
+    &lt;/html&gt;</code></pre>
         </div>
         <div class="rightcontent">
-            <!-- <iframe src="content.html" title="gay" width=158% height="99%" ></iframe> -->
             <iframe src="content.html" title="gay" height=98% width="100%"></iframe>
         </div>
     </div>
 
 
-    <div class="load">
-        <pre class="term">mrcezmi@icerikyonetim:~$ </pre>
-    </div>
-    
+    <!-- <div class="load">
+        <pre class="term">gustavo@fring:~$ </pre>
+    </div> -->
+
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
     <script src="js/index.js"></script>
     <script src="js.js"></script>
-    <script src="prism.js"></script>
+    <script>hljs.highlightAll();</script>
 </body>
 
 </html>
