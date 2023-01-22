@@ -37,7 +37,7 @@ function feedbacker() {
         i++;
         textarea.append("[    " + count / 1000 + "] " + output[i] + "<br>");
     }
-    window.scrollTo(0, 20 * i);
+    window.scrollTo(0, 20*i);
     i++;
     time = Math.floor(Math.random() * 4) + 1;
     count += time;
